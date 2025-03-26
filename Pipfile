@@ -4,13 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-sqlmodel = "*"
+fastapi = {extras = ["standard"], version = "*"}
 sqlalchemy = "*"
 pymysql = "*"
 aiomysql = "*"
 python-dotenv = "*"
-pydantic-settings = "*"
-fastapi = {extras = ["standard"], version = "*"}
 
 [dev-packages]
 

@@ -1,0 +1,168 @@
+2025-03-26 14:36:33,468 - uvicorn.error - INFO - Shutting down
+2025-03-26 14:36:33,579 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-03-26 14:36:33,581 - uvicorn.error - INFO - Application shutdown complete.
+2025-03-26 14:36:33,581 - uvicorn.error - INFO - Finished server process [11816]
+2025-03-26 14:36:34,398 - uvicorn.error - INFO - Started server process [17564]
+2025-03-26 14:36:34,398 - uvicorn.error - INFO - Waiting for application startup.
+2025-03-26 14:36:34,398 - uvicorn.error - INFO - Application startup complete.
+2025-03-26 14:36:34,446 - uvicorn.error - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\.virtualenvs\testfast2-2RP9F0zw\Lib\site-packages\starlette\routing.py", line 699, in lifespan
+    await receive()
+  File "C:\Users\User\.virtualenvs\testfast2-2RP9F0zw\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2025-03-26 14:36:35,265 - uvicorn.error - INFO - Started server process [3920]
+2025-03-26 14:36:35,265 - uvicorn.error - INFO - Waiting for application startup.
+2025-03-26 14:36:35,265 - uvicorn.error - INFO - Application startup complete.
+2025-03-26 14:36:42,471 - controllers.item_controller - ERROR - Error fetching all items: (1146, "Table 'dbfast.items1' doesn't exist")
+2025-03-26 14:36:42,471 - exceptions.custom_exception - ERROR - Error occurred: Error while fetching items
+2025-03-26 14:37:05,834 - uvicorn.error - INFO - Shutting down
+2025-03-26 14:37:05,944 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-03-26 14:37:05,945 - uvicorn.error - INFO - Application shutdown complete.
+2025-03-26 14:37:05,945 - uvicorn.error - INFO - Finished server process [3920]
+2025-03-26 14:37:06,798 - uvicorn.error - INFO - Started server process [3048]
+2025-03-26 14:37:06,798 - uvicorn.error - INFO - Waiting for application startup.
+2025-03-26 14:37:06,808 - uvicorn.error - INFO - Application startup complete.
+2025-03-26 14:40:28,804 - uvicorn.error - INFO - Shutting down
+2025-03-26 14:40:28,914 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-03-26 14:40:28,914 - uvicorn.error - INFO - Application shutdown complete.
+2025-03-26 14:40:28,914 - uvicorn.error - INFO - Finished server process [3048]
+2025-03-26 14:40:29,823 - uvicorn.error - INFO - Started server process [11068]
+2025-03-26 14:40:29,823 - uvicorn.error - INFO - Waiting for application startup.
+2025-03-26 14:40:29,823 - uvicorn.error - INFO - Application startup complete.
+2025-03-26 14:40:29,864 - uvicorn.error - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\.virtualenvs\testfast2-2RP9F0zw\Lib\site-packages\starlette\routing.py", line 699, in lifespan
+    await receive()
+  File "C:\Users\User\.virtualenvs\testfast2-2RP9F0zw\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2025-03-26 14:40:30,693 - uvicorn.error - INFO - Started server process [20140]
+2025-03-26 14:40:30,693 - uvicorn.error - INFO - Waiting for application startup.
+2025-03-26 14:40:30,693 - uvicorn.error - INFO - Application startup complete.
+2025-03-26 14:40:39,982 - uvicorn.error - INFO - Shutting down
+2025-03-26 14:40:40,090 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-03-26 14:40:40,094 - uvicorn.error - INFO - Application shutdown complete.
+2025-03-26 14:40:40,094 - uvicorn.error - INFO - Finished server process [20140]
+2025-03-26 14:40:46,991 - uvicorn.error - INFO - Will watch for changes in these directories: ['C:\\xampp\\htdocs\\testfast2']
+2025-03-26 14:40:46,991 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2025-03-26 14:40:46,991 - uvicorn.error - INFO - Started reloader process [15872] using WatchFiles
+2025-03-26 14:40:47,719 - uvicorn.error - INFO - Started server process [22608]
+2025-03-26 14:40:47,729 - uvicorn.error - INFO - Waiting for application startup.
+2025-03-26 14:40:47,730 - uvicorn.error - INFO - Application startup complete.
+2025-03-26 14:48:41,449 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:48:55,192 - uvicorn.error - INFO - Shutting down
+2025-03-26 14:48:55,304 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-03-26 14:48:55,304 - uvicorn.error - INFO - Application shutdown complete.
+2025-03-26 14:48:55,304 - uvicorn.error - INFO - Finished server process [22608]
+2025-03-26 14:48:55,799 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:48:56,189 - uvicorn.error - INFO - Started server process [3016]
+2025-03-26 14:48:56,189 - uvicorn.error - INFO - Waiting for application startup.
+2025-03-26 14:48:56,189 - uvicorn.error - INFO - Application startup complete.
+2025-03-26 14:48:56,235 - uvicorn.error - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\.virtualenvs\testfast2-2RP9F0zw\Lib\site-packages\starlette\routing.py", line 699, in lifespan
+    await receive()
+  File "C:\Users\User\.virtualenvs\testfast2-2RP9F0zw\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2025-03-26 14:48:57,086 - uvicorn.error - INFO - Started server process [13920]
+2025-03-26 14:48:57,086 - uvicorn.error - INFO - Waiting for application startup.
+2025-03-26 14:48:57,086 - uvicorn.error - INFO - Application startup complete.
+2025-03-26 14:49:19,462 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:50:46,220 - uvicorn.error - INFO - Shutting down
+2025-03-26 14:50:46,329 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-03-26 14:50:46,330 - uvicorn.error - INFO - Application shutdown complete.
+2025-03-26 14:50:46,330 - uvicorn.error - INFO - Finished server process [13920]
+2025-03-26 14:50:46,819 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:51:13,039 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:51:42,111 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:51:51,696 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:52:02,332 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:52:06,387 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:52:14,951 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:52:22,617 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:52:32,653 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:52:38,073 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:52:58,516 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:54:07,934 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:54:26,592 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:54:56,217 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:55:12,278 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
+2025-03-26 14:55:13,193 - uvicorn.error - INFO - Started server process [7020]
+2025-03-26 14:55:13,193 - uvicorn.error - INFO - Waiting for application startup.
+2025-03-26 14:55:13,193 - uvicorn.error - INFO - Application startup complete.
+2025-03-26 14:56:12,438 - uvicorn.error - WARNING - WatchFiles detected changes in 'exceptions\custom_exception.py'. Reloading...
